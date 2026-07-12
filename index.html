@@ -685,7 +685,7 @@
                 sendBtn.innerText = `Wait ${minutes}m ${seconds}s`;
                 formMessage.style.display = "block";
                 formMessage.className = "form-message info";  // ✅ gray informational message
-                formMessage.innerText = `Your message has already been sent. Please try again in ${minutes} minute(s).`;
+                formMessage.innerText = `Your message has already been sent. Please try again in ${minutes} minutes.`;
             } else {
                 localStorage.removeItem(storageKey);
                 sendBtn.disabled = false;
